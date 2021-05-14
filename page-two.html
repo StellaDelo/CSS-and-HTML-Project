@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         body {
+         background-color: rgb(216, 215, 211);
+         }
+         h1{
+         text-align: center;
+         }
+         .p1{
+         text-align: center;
+         font-family:Arial, Helvetica, sans-serif;
+         font-size: 16px;
+         text-decoration: solid;
+         letter-spacing: 1px;
+         line-height: 35px;
+         word-spacing: 4px;
+         color: #616665;
+         }
+         /* button visited */
+         a:link, a:visited {
+         background-color: #616665;
+         color: white;
+         padding: 14px 25px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         }
+         /* button when hovered */
+         a:hover, a:active {
+         background-color:rgb(139, 138, 64);
+         }
+         /* Centers buttons */
+         .center-text {
+         text-align: center;
+         display: block;
+         }
+         /* Images with transition */
+         /* Blue */
+         .container {
+         position: relative;
+         width: 1245px;
+         }
+         .image {
+         display: block;
+         text-align: center;
+         }
+         .overlay {
+         position: absolute;
+         bottom: 100%;
+         left: 0;
+         right: 0;
+         background-color: #008CBA;
+         overflow: hidden;
+         width: 100%;
+         height:0;
+         transition: .5s ease;
+         }
+         .container:hover .overlay {
+         bottom: 0;
+         height: 400px;
+         }
+         .text {
+         color: white;
+         font-size: 20px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         -webkit-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+         text-align: center;
+         }
+         /* green */
+         .container-1 {
+         position: relative;
+         width: 1245px;
+         }
+         .image-1 {
+         display: block;
+         text-align: center;
+         }
+         .overlay-1 {
+         position: absolute;
+         bottom: 100%;
+         left: 0;
+         right: 0;
+         background-color: #00ba3e;
+         overflow: hidden;
+         width: 100%;
+         height:0;
+         transition: .5s ease;
+         }
+         .container-1:hover .overlay-1 {
+         bottom: 0;
+         height: 400px;
+         }
+         .text-1 {
+         color: white;
+         font-size: 20px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         -webkit-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+         text-align: center;
+         }
+         /* yellow */
+         .container-2 {
+         position: relative;
+         width: 1245px;
+         }
+         .image-2 {
+         display: block;
+         text-align: center;
+         }
+         .overlay-2 {
+         position: absolute;
+         bottom: 100%;
+         left: 0;
+         right: 0;
+         background-color: #cabd07;
+         overflow: hidden;
+         width: 100%;
+         height:0;
+         transition: .5s ease;
+         }
+         .container-2:hover .overlay-2 {
+         bottom: 0;
+         height: 400px;
+         }
+         .text-2 {
+         color: white;
+         font-size: 20px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         -webkit-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+         text-align: center;
+         }
+         /* orange */
+         .container-3 {
+         position: relative;
+         width: 1245px;
+         }
+         .image-3 {
+         display: block;
+         text-align: center;
+         }
+         .overlay-3 {
+         position: absolute;
+         bottom: 100%;
+         left: 0;
+         right: 0;
+         background-color: #ca7607;
+         overflow: hidden;
+         width: 100%;
+         height:0;
+         transition: .5s ease;
+         }
+         .container-3:hover .overlay-3 {
+         bottom: 0;
+         height: 400px;
+         }
+         .text-3 {
+         color: white;
+         font-size: 20px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         -webkit-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+         text-align: center;
+         }
+         /* red */
+         .container-4 {
+         position: relative;
+         width: 1245px;
+         }
+         .image-4 {
+         display: block;
+         text-align: center;
+         }
+         .overlay-4 {
+         position: absolute;
+         bottom: 100%;
+         left: 0;
+         right: 0;
+         background-color: #ca2e07;
+         overflow: hidden;
+         width: 100%;
+         height:0;
+         transition: .5s ease;
+         }
+         .container-4:hover .overlay-4 {
+         bottom: 0;
+         height: 400px;
+         }
+         .text-4 {
+         color: white;
+         font-size: 20px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         -webkit-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+         text-align: center;
+         }
+         /* End of flip card css */
+      </style>
+   </head>
+   <title>Psychology of Colours</title>
+   <h1>Psychology of Colours</h1>
+   <body>
+      <!--Links for buttons (test)  -->
+      <div class="center-text">
+         <a id="pages" href="first-page.html">Home</a>
+         <a id="pages" href="page-three.html">Music</a>
+         <p class="p1">Color is more than a visual experience. 
+            It is also a psychological one that can radically affect mood and emotion.
+            We're going to dive deeper into which colors affect your mood and emotion in different ways
+         </p>
+         <!-- Images with transition -->
+         <!-- blue -->
+         <p class="p1"><b>Hover over the images</b></p>
+         <div class="container">
+            <img src="Pictures/blue1.jpg" alt="Avatar" class="image" style="width:1245px;height:400px;">
+            <div class="overlay">
+               <div class="text"> Blue is related to calmness or serenity.It is often described as peaceful, tranquil, secure, and orderly. Blue is often seen as a sign of stability and reliability.</div>
+            </div>
+         </div>
+      </div>
+      <!-- green -->
+      <div class="container-1">
+         <img src="Pictures/green.png" alt="Avatar-1" class="image-1" style="width:1245px;height:400px;">
+         <div class="overlay-1">
+            <div class="text-1"> Green is related to tranquility, good luck, health, and jealousy. Researchers have also found that green can improve reading ability.</div>
+         </div>
+      </div>
+      </div>
+      <!-- yellow -->
+      <div class="container-2">
+         <img src="Pictures/yellow.jpg" alt="Avatar-2" class="image-2" style="width:1245px;height:400px;">
+         <div class="overlay-2">
+            <div class="text-2"> Yellow is uplifting and illuminating, offering hope, happiness, cheerfulness and fun.</div>
+         </div>
+      </div>
+      </div>
+      <!-- orange -->
+      <div class="container-3">
+         <img src="Pictures/orange.png" alt="Avatar-3" class="image-3" style="width:1245px;height:400px;">
+         <div class="overlay-3">
+            <div class="text-3">Orange is an energetic colour. Orange calls to mind feelings of excitement, enthusiasm, and warmth. Orange is often used to draw attention, such as in traffic signs and advertising. </div>
+         </div>
+      </div>
+      </div>
+      <!-- red -->
+      <div class="container-4">
+         <img src="Pictures/red.png" alt="Avatar-4" class="image-4" style="width:1245px;height:400px;">
+         <div class="overlay-4">
+            <div class="text-4">red provokes the strongest emotions of any color. Red is linked to passion and love as well as power and anger. It is also related to Danger and Warning, Excitement and Energy, and Aggression. </div>
+         </div>
+      </div>
+      </div>
+      </div>
+   </body>
+</html>
